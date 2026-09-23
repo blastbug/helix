@@ -172,7 +172,7 @@ jobs:
 
       - name: Install cargo-deb
         if: matrix.build == 'x86_64-linux'
-        uses: taiki-e/install-action@9e1e5806d4a4822de933115878265be9aaa786d9 # v2.82.2
+        uses: taiki-e/install-action@76c2e6406e52637deed7160d77bded76bd83e06e # v2.87.14
         with:
           tool: cargo-deb
 
